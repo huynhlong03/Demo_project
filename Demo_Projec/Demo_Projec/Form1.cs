@@ -15,10 +15,11 @@ namespace Demo_Projec
         public Form1()
         {
             InitializeComponent();
+            test();
         }
         public void test()
         {
-
+            label1.Text = "Hello world!";
         }
     }
 }
